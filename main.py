@@ -28,7 +28,7 @@ for x in myresult:
     urllib.request.urlretrieve(url,'imagesAttendence/'+y);
 
 
-path = '../ImagesAttendence'
+path = 'ImagesAttendence'
 images = []
 classNames = []
 myList = os.listdir(path)
